@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#newUserBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#newUserBtn:hover {
+    background-color: #0056b3;
+}
+
+#hideDisabledUser {
+    margin-left: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#userTable {
+    width: 60%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#userTable th, #userTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+#userTable th {
+    background-color: #007bff;
+    color: white;
+}
+
+#userFormContainer {
+    width: 35%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#userForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#userForm label {
+    margin-top: 10px;
+}
+
+#userForm input, #userForm select, #userForm button {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#userForm button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#userForm button:hover {
+    background-color: #0056b3;
+}
